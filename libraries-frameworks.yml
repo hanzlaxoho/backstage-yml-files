@@ -1,0 +1,13 @@
+frameworks:
+  - nodeJS:
+    link: https://nodejs.org/en/
+
+libraries:
+  - reactJS:
+    link: https://reactjs.org/
+  - npm:
+    link: https://www.npmjs.com/
+
+side_tools:
+  - vscode:
+    link: https://code.visualstudio.com/
