@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testing-from-git-repo
+  description: |
+    Backstage has started to feel like useless, don't know why
+  links:
+    - title: 10FastFingers
+      url: https://10fastfingers.com/typing-test/english
+    - title: Henry-Audition-Video
+      url: https://www.youtube.com/watch?v=tA5giyG8E7g
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: library
+  owner: Hanzla
+  lifecycle: experimental
