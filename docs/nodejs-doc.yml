@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: node-js
+  description: NodeJS is a backend language, mainly used with React.
+  annotations:
+    backstage.io/techdocs-ref: https://nodejs.org/en/
+  tags:
+    - backend
+    - javascript
+    - docs
+  links:
+    - url: https://nodejs.org/en/download/
+      title: NodeJS Available Downloads
+      icon: web
+    - url: https://nodejs.org/en/docs/
+      title: NodeJS Official Documentation
+      icon: web
+
+spec:
+  type: service
+  lifecycle: production
+  owner: xoho-tech
+  # system: artist-engagement-portal
