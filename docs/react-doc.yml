@@ -1,24 +1,31 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: npm
-  description: NPM is a tool/service for installing React packages
+  name: react-js
+  description: ReactJS is a front-end library/framework for developing cool website interfaces
   annotations:
-    backstage.io/techdocs-ref: url:https://www.npmjs.com/
+    backstage.io/techdocs-ref: url:https://reactjs.org/
   tags:
+    - frontend
     - javascript
     - react
     - docs
   links:
-    - url: https://www.npmjs.com/
-      title: NPM Official Website
+    - url: https://reactjs.org/docs/getting-started.html
+      title: Getting Started with React
       icon: web
-    - url: https://docs.npmjs.com/
-      title: NPM Official Documentation
+    - url: https://reactjs.org/tutorial/tutorial.html
+      title: Tutorials, Get Hands On React
       icon: web
+    - url: https://reactjs.org/blog/2021/06/08/the-plan-for-react-18.html
+      title: React Official Blog
+      icon: group
+    - url: https://reactjs.org/community/support.html
+      title: Support for React
+      icon: help
 
 spec:
-  type: service
+  type: library
   lifecycle: production
   owner: xoho-tech
   # system: artist-engagement-portal

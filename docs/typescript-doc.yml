@@ -1,24 +1,31 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: npm
-  description: NPM is a tool/service for installing React packages
+  name: typescript
+  description: TypeScript is a superset of JavaScript, makes the syntax cool
   annotations:
-    backstage.io/techdocs-ref: url:https://www.npmjs.com/
+    backstage.io/techdocs-ref: url:https://www.typescriptlang.org/
   tags:
+    - typescript
     - javascript
-    - react
+    - classbased
     - docs
   links:
-    - url: https://www.npmjs.com/
-      title: NPM Official Website
+    - url: https://www.typescriptlang.org/docs/
+      title: Documentation
       icon: web
-    - url: https://docs.npmjs.com/
-      title: NPM Official Documentation
+    - url: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+      title: TypeScript for JavaScript Developers
+      icon: group
+    - url: https://www.typescriptlang.org/download
+      title: Downloads for TS
       icon: web
+    - url: https://www.typescriptlang.org/play
+      title: TypeScript PlayGround
+      icon: dashboard
 
 spec:
-  type: service
+  type: language
   lifecycle: production
   owner: xoho-tech
   # system: artist-engagement-portal

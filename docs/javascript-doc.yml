@@ -1,24 +1,21 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: npm
-  description: NPM is a tool/service for installing React packages
+  name: javascript
+  description: JavaScript is a computer language, basically used for web applications
   annotations:
-    backstage.io/techdocs-ref: url:https://www.npmjs.com/
+    backstage.io/techdocs-ref: url:https://developer.mozilla.org/en-US/docs/Web/JavaScript
   tags:
     - javascript
-    - react
+    - webapps
     - docs
   links:
-    - url: https://www.npmjs.com/
-      title: NPM Official Website
-      icon: web
-    - url: https://docs.npmjs.com/
-      title: NPM Official Documentation
+    - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript#tutorials
+      title: JavaScript Tutorials
       icon: web
 
 spec:
-  type: service
+  type: language
   lifecycle: production
   owner: xoho-tech
   # system: artist-engagement-portal
