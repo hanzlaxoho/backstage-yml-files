@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: service-4
+  name: service-4-10-fingers
   description: This is a service 4 test of YML File
   tags:
-    - javaScript
+    - javascript
     - html
     - css
     - bootstrap
