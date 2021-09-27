@@ -11,9 +11,9 @@ metadata:
       url: https://www.youtube.com/watch?v=tA5giyG8E7g
   annotations:
     github.com/project-slug: backstage/backstage
-    backstage.io/techdocs-ref: dir:.
-    lighthouse.com/website-url: https://backstage.io
+    backstage.io/techdocs-ref: url
+    lighthouse.com/website-url: https://backstage.io/catalog/lighthouse-api-fetch
 spec:
-  type: component
+  type: service
   owner: Hanzla
   lifecycle: experimental
