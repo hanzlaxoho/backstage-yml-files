@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: testing-component-yml-file
-  description: This is a testing component, from the github repo of Mr Hanzla
+  description: "This is a testing component, from the github repo of Mr Hanzla"
   labels:
     example.com/custom: custom_label_value
   annotations:
@@ -10,10 +10,10 @@ metadata:
     circleci.com/project-slug: github/example-org/artist-website
   tags:
     - random
-    - goo goo
+    - goo-goo
   links:
     - url: https://10fastfingers.com/typing-test/english
-      title: Fast Typing Test Link
+      title: "Fast Typing Test Link"
       icon: dashboard
 spec:
   type: website
