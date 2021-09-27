@@ -4,7 +4,7 @@ metadata:
   name: node-js
   description: NodeJS is a backend language, mainly used with React.
   annotations:
-    backstage.io/techdocs-ref: https://nodejs.org/en/
+    backstage.io/techdocs-ref: url:https://nodejs.org/en/
   tags:
     - backend
     - javascript
