@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: component
+metadata:
+  name: jirra-service-3-with-metadata
+  description: |
+    Just testing the service with some dummy data
+  links:
+    - title: 10FastFingers
+      url: https://10fastfingers.com/typing-test/english
+services:
+  name: jirra-xoho-tech
+  links:
+    - url: https://jira.xoho.team/
