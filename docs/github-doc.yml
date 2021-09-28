@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github
+  description: Github is an online codespace for hosting Git repos.
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/
+  tags:
+    - code
+    - repos
+    - git
+    - github
+  links:
+    - url: https://github.com/
+      title: Official Website
+      icon: web
+    - url: https://github.com/about
+      title: About
+      icon: web
+
+
+spec:
+  type: service
+  lifecycle: production
+  owner: xoho-tech
+  # system: artist-engagement-portal

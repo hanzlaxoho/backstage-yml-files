@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: git
+  description: Git is a powerful tool to keep track of the history of project
+  annotations:
+    backstage.io/techdocs-ref: url:https://git-scm.com/
+  tags:
+    - git
+    - code
+    - version-control
+    - history
+  links:
+    - url: https://git-scm.com/
+      title: Official Website
+      icon: web
+    - url: https://git-scm.com/downloads
+      title: Git Download
+      icon: web
+    - url: https://git-scm.com/doc
+      title: Official Documentation
+      icon: web
+
+spec:
+  type: tool
+  lifecycle: production
+  owner: xoho-tech
+  # system: artist-engagement-portal

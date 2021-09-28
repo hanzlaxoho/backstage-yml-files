@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vs-code
+  description: VS Code is a code editor with powerful extensions to write code in a effective way
+  annotations:
+    backstage.io/techdocs-ref:
+      url: https://code.visualstudio.com/
+  tags:
+    - ide
+    - code-editor
+    - editor
+  links:
+    - url: https://code.visualstudio.com/
+      title: Official Link
+      icon: web
+    - url: https://code.visualstudio.com/download
+      title: Download VS Code
+      icon: web
+    - url: https://code.visualstudio.com/docs
+      title: Documentation
+      icon: web
+
+spec:
+  type: tool
+  lifecycle: production
+  owner: xoho-tech
+  # system: artist-engagement-portal

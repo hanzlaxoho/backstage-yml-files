@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: expressjs
+  description: ExpressJS is a framework for wrriting backend server, espeacially for React
+  annotations:
+    backstage.io/techdocs-ref: url:https://expressjs.com/
+  tags:
+    - express
+    - backend
+    - javascript
+    - nodejs
+  links:
+    - url: https://expressjs.com/
+      title: Express Website
+      icon: web
+    - url: https://expressjs.com/en/starter/installing.html
+      title: Install ExpressJS
+      icon: dashboard
+    - url: https://expressjs.com/en/5x/api.html
+      title: Official Documentation
+      icon: web
+
+spec:
+  type: framework
+  lifecycle: production
+  owner: xoho-tech
+  # system: artist-engagement-portal0

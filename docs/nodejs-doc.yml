@@ -18,7 +18,7 @@ metadata:
       icon: web
 
 spec:
-  type: service
+  type: language
   lifecycle: production
   owner: xoho-tech
   # system: artist-engagement-portal

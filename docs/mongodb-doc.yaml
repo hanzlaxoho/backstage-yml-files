@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mongodb
+  description: MongoDB is a NoSQL database that stores data in JSON like format
+  annotations:
+    backstage.io/techdocs-ref: url:https://www.mongodb.com/
+  tags:
+    - database
+    - json
+    - data
+  links:
+    - url: https://www.mongodb.com/
+      title: MongoDB Website
+      icon: web
+    - url: https://docs.mongodb.com/manual/installation/
+      title: Install MongoDB
+      icon: web
+    - url: https://www.mongodb.com/try/download/community
+      title: Downlaod Community Version
+      icon: web
+    - url: https://docs.mongodb.com/
+      title: Documentation
+      icon: web
+
+spec:
+  type: language
+  lifecycle: production
+  owner: xoho-tech
+  # system: artist-engagement-portal
