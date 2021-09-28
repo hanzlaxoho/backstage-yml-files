@@ -4,8 +4,7 @@ metadata:
   name: vs-code
   description: VS Code is a code editor with powerful extensions to write code in a effective way
   annotations:
-    backstage.io/techdocs-ref:
-      url: https://code.visualstudio.com/
+    backstage.io/techdocs-ref: url:https://code.visualstudio.com/
   tags:
     - ide
     - code-editor
