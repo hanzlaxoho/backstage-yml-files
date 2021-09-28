@@ -4,7 +4,7 @@ metadata:
   name: expressjs
   description: ExpressJS is a framework for wrriting backend server, espeacially for React
   annotations:
-    github.com/project-slug: backstage/backstage
+    github.com/project-slug: hanzlaxoho/backstage-yml-files/tree/master/express
     backstage.io/techdocs-ref: dir:.
     # backstage.io/techdocs-ref: url:https://expressjs.com/
   tags:
