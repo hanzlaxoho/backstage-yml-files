@@ -6,4 +6,4 @@ plugins:
 
 nav:
   - Overview:
-      - What is ExpressJS?: 'index.md'
+      - What is ExpressJS?: index.md

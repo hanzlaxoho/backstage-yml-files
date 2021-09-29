@@ -10,3 +10,16 @@ reactjs/.DS_Store
 typescript/.DS_Store
 vscode/.DS_Store
 */.DS_Store
+
+# ------------------------------
+express/docs/.DS_Store
+git/docs/.DS_Store
+github/docs/.DS_Store
+javascript/docs/.DS_Store
+mongodb/docs/.DS_Store
+nodejs/docs/.DS_Store
+npm/docs/.DS_Store
+reactjs/docs/.DS_Store
+typescript/docs/.DS_Store
+vscode/docs/.DS_Store
+*/docs/.DS_Store
